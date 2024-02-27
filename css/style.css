@@ -1,0 +1,16 @@
+.container {
+    position: absolute;
+    width: 1368px;
+    height: 660px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+}
+.header {
+    width: 1366px;
+    height: 267px;
+    background-color: #333; 
+    color: #fff; 
+}
