@@ -36,3 +36,35 @@
     font-weight: 400; 
     margin: 5px 0;
 }
+.car-cards-container {
+    width: 1198px;
+    height: 320px;
+    position: absolute;
+    top: 284px;
+    left: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    overflow-x: auto;
+}
+@media screen and (max-width: 1366px) {
+    #carCardsContainer {
+        width: calc(100% - 162px); 
+        left: 81px;
+    }
+}
+
+@media screen and (max-width: 1206px) {
+    #carCardsContainer {
+        width: calc(100% - 92px);
+        left: 81px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #carCardsContainer {
+        width: calc(100% - 16px); 
+        left: 0;
+        top: 500px; 
+    }
+}

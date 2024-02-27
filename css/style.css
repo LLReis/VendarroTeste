@@ -17,14 +17,15 @@
 
 .header {
     width: 100%;
-    background-color: #333; 
+    background-color: #fff; 
     color: #fff; 
-    padding: 10px;
     box-sizing: border-box; 
+    border: none;
 }
 
 .header-content {
     display: flex;
+    background-color: #ccc;
     justify-content: space-between;
     align-items: center;
 }
@@ -47,8 +48,39 @@
     text-align: right;
     width: 100%; 
 }
-.car-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+#searchInput {
+    width: 1206px;
+    height: 70px;
+    position: absolute;
+    top: 153px;
+    left: 81px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    padding: 0 15px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+@media screen and (max-width: 1366px) {
+    #searchInput {
+        width: calc(100% - 162px); 
+        left: 81px;
+    }
+}
+
+@media screen and (max-width: 1206px) {
+    #searchInput {
+        width: calc(100% - 92px); 
+        left: 81px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #searchInput {
+        width: calc(100% - 16px); 
+        left: 0;
+        top: 100px; 
+    }
 }

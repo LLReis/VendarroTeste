@@ -1,0 +1,23 @@
+.modal {
+    display: none;
+    position: fixed;
+    width: 564px; 
+    height: 486px; 
+    top: 87px; 
+    left: 402px; 
+    background-color: white;
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
